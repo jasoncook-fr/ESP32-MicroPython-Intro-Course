@@ -1,6 +1,7 @@
 from utime import sleep
 from machine import Pin
 
+# change pin number for your own setup
 led = Pin(22,Pin.OUT)
 
 while True:
