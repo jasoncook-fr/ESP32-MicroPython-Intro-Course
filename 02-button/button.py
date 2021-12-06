@@ -9,10 +9,10 @@ from machine import Pin
 from utime import sleep
 
 # create output pin on GPIO22
-led = Pin(22, Pin.OUT)    
+led = Pin(5, Pin.OUT)    
 
 # create input pin on GPIO21 and enable internal pull-up resistor
-button = Pin(21, Pin.IN, Pin.PULL_UP)
+button = Pin(15, Pin.IN, Pin.PULL_UP)
 
 while True:
     # read button state and store the value
