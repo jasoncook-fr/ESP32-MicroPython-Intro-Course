@@ -50,7 +50,7 @@ wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 ./esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 ```
-**Program the firmware:**
+**Program the firmware**
 
 ```shell
 
@@ -59,4 +59,16 @@ wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 ./esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
 
 ```
+
+**Open Thonny and verify that the firmware is working**
+
+Under Tools -> Options -> Interpreter, Choose __MicroPython(ESP32)__
+
+![Thonny-options](images/thonny-options.png)
+
+If all goes well, you should see the Micropython version and date displayed in the shell window
+![Thonny-verify](images/thonny-verify.png)
+
+
+
 
