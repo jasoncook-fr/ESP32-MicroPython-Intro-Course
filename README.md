@@ -66,7 +66,8 @@ Under Tools -> Options -> Interpreter, Choose __MicroPython(ESP32)__
 
 ![Thonny-options](images/thonny-options.png)
 
-If all goes well, you should see the Micropython version and date displayed in the shell window
+**If all goes well, you should see the Micropython version and date displayed in the shell window**
+
 ![Thonny-verify](images/thonny-verify.png)
 
 
