@@ -1,10 +1,10 @@
-## SSD1306 OLED Display example
+# SSD1306 OLED Display example
 
-**Basic test for an I2C driven ssd1306 OLED display** <br />
+## Basic test for an I2C driven ssd1306 OLED display
 
 **You must upload the _ssd1306.py_ module to the board in order to use the included code examples**<br />
 
-### To test if we have a functional connection with the display (or any i2c device), the following lines will do the trick
+**To test if we have a functional connection with the display (or any i2c device), the following lines will do the trick**
 
 ```python
 from machine import Pin, SoftI2C
@@ -12,9 +12,7 @@ i2c = SoftI2C(scl=Pin(22), sda=Pin(21))
 i2c.scan()
 ```
 
-### oledHello.py
-
-This is a very minimal code to show simple text on the screen
+**oledHello.py** is included in this repository as a very minimal code to show simple text on the screen
 
 ### Hookup guide:
 
