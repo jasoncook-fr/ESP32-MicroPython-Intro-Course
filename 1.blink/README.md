@@ -16,8 +16,10 @@ led = Pin(22,Pin.OUT)
 on/off state is controlled by using the _value_ function
 
 ```python
-myLed.value(1)
-myLed.value(0)
+
+led.value(1)
+led.value(0)
+
 ```
 
 ## Hookup guide:
