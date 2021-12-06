@@ -9,12 +9,11 @@ create a LED object:
 ```python
 
 # change the pin number for your own setup
-
 led = Pin(22,Pin.OUT)
 
 ```
 
-on/off state is controlled by using the __value__ function
+on/off state is controlled by using the _value_ function
 
 ```python
 myLed.value(1)
