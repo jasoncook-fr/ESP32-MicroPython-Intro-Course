@@ -15,6 +15,7 @@ git clone https://github.com/espressif/esptool.git
 ```
 
 **Download the necessary firmware for our board**
+
 Visit the official micropython [download page](https://micropython.org/download/). <br />
 You will notice there are many options. For most generic ESP32 devices try [this one](https://micropython.org/download/esp32/) .
 
