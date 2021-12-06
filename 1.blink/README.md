@@ -21,7 +21,7 @@ myLed.value(1)
 myLed.value(0)
 ```
 
-### Hookup guide:
+## Hookup guide:
 
 __ALWAYS ADD A RESISTOR FOR THE LED!__ (220 or 330 ohm for example)
 
