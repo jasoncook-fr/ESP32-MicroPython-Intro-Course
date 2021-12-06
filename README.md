@@ -7,7 +7,6 @@ For download instructions, visit [The official website](https://thonny.org "Offi
 ### Install Firmware onto the ESP32
 
 1. **Download esptool software** <br />
-I recommend using the latest version available [HERE](https://github.com/espressif/esptool)
 
 ```shell
 
@@ -17,7 +16,7 @@ git clone https://github.com/espressif/esptool.git
 
 2. **Download the Necessary Firmware** <br />
 Visit the [download page](https://micropython.org/download/) of the official micropython website. <br />
-You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [HERE](https://micropython.org/download/esp32/)
+You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [here](https://micropython.org/download/esp32/)
 
 Using wget in commandline:
 
@@ -46,15 +45,5 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 
 
 3. Connect the ESP32 to your computer with a micro-USB cable.
 
-4. The Raspberry Pico will appear as a USB storage device on your computer.
 
 
-__Illustration from the raspberry website:__
-
-![install-firmware](images/install-firmware.webp)
-
-<br />
-
-### Raspberry Pico Pinout is as follows:
-
-![Pico-Pinout](images/pico_pinout.png)
