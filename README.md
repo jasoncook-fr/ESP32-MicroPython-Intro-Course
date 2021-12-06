@@ -20,7 +20,7 @@ You will notice there are many options. For most generic ESP32 devices the follo
 
 Using wget in commandline:
 
-```shell
+```console
 
 cd esptool
 wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
