@@ -4,7 +4,7 @@
 
 For download instructions, visit [The official website](https://thonny.org "Official Thonny Website")
 
-## Install Firmware onto the ESP32
+## Installing Micropython Firmware onto the ESP32
 
 **Download the esptool software**
 
