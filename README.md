@@ -8,6 +8,7 @@ For download instructions, visit [The official website](https://thonny.org "Offi
 
 1. **Download esptool software** <br />
 I recommend using the latest version available [HERE](https://github.com/espressif/esptool)
+
 ```console
 git clone https://github.com/espressif/esptool.git
 
@@ -18,6 +19,7 @@ Visit the [download page](https://micropython.org/download/) of the official mic
 You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [HERE](https://micropython.org/download/esp32/)
 
 Using wget in commandline:
+
 ```shell
 cd esptool
 wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
