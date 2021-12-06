@@ -1,12 +1,12 @@
-## Getting started with Micropython on ESP32
+# Getting started with Micropython on ESP32
 
 ### To follow the examples it is recommended to install Thonny (Python IDE for beginners)
 
 For download instructions, visit [The official website](https://thonny.org "Official Thonny Website")
 
-### Install Firmware onto the ESP32
+## Install Firmware onto the ESP32
 
-1. **Download esptool software** <br />
+**Download the esptool software**
 
 ```shell
 
@@ -14,15 +14,18 @@ git clone https://github.com/espressif/esptool.git
 
 ```
 
-2. **Download the Necessary Firmware** <br />
-Visit the [download page](https://micropython.org/download/) of the official micropython website. <br />
-You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [here](https://micropython.org/download/esp32/)
+**Download the necessary firmware for our board**
+Visit the official micropython [download page](https://micropython.org/download/). <br />
+You will notice there are many options. For most generic ESP32 devices try [this one](https://micropython.org/download/esp32/) .
 
-Using wget in commandline:
+Alternatively we can use wget in commandline:
 
-```bash
+```shell
+
+# all following commands to be executed in the esptool folder
 
 cd esptool
+
 wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 
 
