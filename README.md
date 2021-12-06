@@ -4,11 +4,6 @@
 
 For download instructions, visit [The official website](https://thonny.org "Official Thonny Website")
 
-__Thonny Screenshot__
-
-![Thonny-preview](images/thonny.png)
-<br />
-
 ### Install Firmware onto the ESP32
 
 1. **Download the Necessary Firmware** <br />
