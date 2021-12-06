@@ -1,19 +1,5 @@
 ## Getting started with Micropython on ESP32
 
-### In this repository are included examples as follows <br/>
-
-| IO Function         | Exercise                               |
-|---------------------|----------------------------------------|
-| OUTPUT              | Blink a LED                            |
-| INPUT               | add a push-button                      |
-| INPUT & OUTPUT      | sequence 3 LEDs at push of a button    |
-| ADC                 | add a potentiometer for analog input   |
-| PWM                 | create varied luminosity of a LED      |
-| PWM                 | automated control of a Servo motor     |
-| PWM & ADC           | control a Servo motor with analog input|
-
-<br />
-
 ### To follow the examples it is recommended to install Thonny (Python IDE for beginners)
 
 For download instructions, visit [The official website](https://thonny.org "Official Thonny Website")
@@ -25,14 +11,17 @@ __Thonny Screenshot__
 
 ### Install Firmware onto the ESP32
 
-1. Visit the [download page](https://micropython.org/download/) of the official micropython website. <br />
-**You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [Here](https://micropython.org/download/esp32/)**
+1. **Download the Necessary Firmware** <br />
+Visit the [download page](https://micropython.org/download/) of the official micropython website. <br />
+You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [HERE](https://micropython.org/download/esp32/)
 
-2. Connect to your computer with a micro-USB cable.
+2. **Download esptool software** <br />
+I recommend using the latest version available [HERE](https://github.com/espressif/esptool)
 
-3. The Raspberry Pico will appear as a USB storage device on your computer.
+3. Connect the ESP32 to your computer with a micro-USB cable.
 
-4. Drag and drop the downloaded file onto the mounted Raspberry device.
+4. The Raspberry Pico will appear as a USB storage device on your computer.
+
 
 __Illustration from the raspberry website:__
 
