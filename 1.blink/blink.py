@@ -1,12 +1,11 @@
-#import the modules we will be using
-import machine
-import utime
+from utime import sleep
+from machine import Pin
 
-#Create a variable for our led.
-#Specify the pin number and designate it as an OUTPUT
-myLed = machine.Pin(15, machine.Pin.OUT)
+led = Pin(32,Pin.OUT)
 
-#Create a while loop
 while True:
-    myLed.toggle() #change Pin state
-    utime.sleep(1) #wait one second
+    led.value(1)
+    sleep(0.5)
+    led.value(0)
+    sleep(0.5)
+
