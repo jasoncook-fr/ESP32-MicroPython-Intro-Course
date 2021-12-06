@@ -28,7 +28,7 @@ __Thonny Screenshot__
 1. Visit the [download page](https://micropython.org/download/) of the official micropython website. <br />
 **You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [Here](https://micropython.org/download/esp32/)**
 
-2. While pressing the _BOOTSEL_ button on the Raspberry Pico, connect it to your computer with a micro-USB cable.
+2. Connect to your computer with a micro-USB cable.
 
 3. The Raspberry Pico will appear as a USB storage device on your computer.
 
