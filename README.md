@@ -6,7 +6,7 @@ For download instructions, visit [The official website](https://thonny.org "Offi
 
 ## Installing Micropython Firmware onto the ESP32
 
-**Download the esptool software**
+**Download the latest esptool software**
 
 ```shell
 
