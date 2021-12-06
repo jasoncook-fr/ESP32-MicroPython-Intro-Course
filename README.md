@@ -18,7 +18,7 @@ Visit the [download page](https://micropython.org/download/) of the official mic
 You will notice there are many options. For most generic ESP32 devices the following firmware profile should be fine: [HERE](https://micropython.org/download/esp32/)
 
 Using wget in commandline:
-```console
+```shell
 cd esptool
 wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 
@@ -26,13 +26,13 @@ wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 
 Erase anything currently on the ESP32:
 
-```console
+```shell
 esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 ```
 program the firmware starting at address 0x1000:
 
-```console
+```shell
 esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
 ```
 
