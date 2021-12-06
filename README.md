@@ -25,7 +25,6 @@ Alternatively we can use wget in commandline:
 # all following commands to be executed in the esptool folder
 
 cd esptool
-
 wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 
 
