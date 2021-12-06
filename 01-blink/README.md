@@ -9,7 +9,7 @@ create a LED object:
 ```python
 
 # change the pin number for your own setup
-led = Pin(22,Pin.OUT)
+led = Pin(5,Pin.OUT)
 
 ```
 
