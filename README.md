@@ -14,6 +14,16 @@ git clone https://github.com/espressif/esptool.git
 
 ```
 
+**Serial library is a possible requisite for using esptool**
+
+```shell
+
+sudo apt-get update
+sudo apt-get install python-serial python3-serial
+
+```
+
+
 **Download the necessary firmware for our board**
 
 Visit the official micropython [download page](https://micropython.org/download/). <br />
@@ -30,13 +40,14 @@ wget https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin
 
 
 ```
+
 **Connect the ESP32 to your computer and erase all existing data**
 
 ```shell
 
 # Change USB port if necessary
 
-esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+./esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 ```
 **Program the firmware:**
@@ -45,7 +56,7 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 # Change USB port and .bin file name to match your own
 
-esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
+./esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
 
 ```
 
