@@ -1,4 +1,4 @@
-# Examples for establishing an ESP32 as a wireless access point
+## Examples for establishing an ESP32 as a wireless access point
 
 **01-accessPointHello.py** is included here to illustrate minimal requirements for creating a wireless access point
 
