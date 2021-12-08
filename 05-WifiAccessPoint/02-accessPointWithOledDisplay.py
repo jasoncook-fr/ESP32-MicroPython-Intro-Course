@@ -12,9 +12,11 @@ oled_height = 32
 i2c = SoftI2C(scl=Pin(22), sda=Pin(21))
 oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
 
-# Make our device a wireless access-point
+# change network name and password to your choosing
 ssid = 'MCU'
 password = '12345'
+
+# Make our device a wireless access-point
 ap = network.WLAN(network.AP_IF)
 ap.active(True)
 ap.config(essid=ssid, password=password)

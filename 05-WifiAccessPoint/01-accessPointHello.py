@@ -3,6 +3,7 @@ This is a minimal code to establish an access point using an ESP32.
 Run the code and then, using a computer or a smartphone,
 verify that the device appears available as a wireless network.
 '''
+from utime import sleep
 import network
 import gc
 # common practice to use garbage collect
@@ -21,3 +22,7 @@ while ap.active() == False:
 
 print('Connection successful')
 print(ap.ifconfig())
+
+while True:
+    #do nothing
+    sleep(.01)
