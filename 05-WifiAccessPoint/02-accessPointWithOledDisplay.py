@@ -1,6 +1,6 @@
 from machine import Pin, SoftI2C
-import ssd1306
 from utime import sleep
+import ssd1306
 import network
 import gc
 #garbage collect is common protocol
@@ -36,3 +36,7 @@ oled.text(ssid, 42, 0)
 oled.text('IP:', 0, 20)
 oled.text(ip_address[0], 25, 20)
 oled.show()
+
+while True:
+    #do nothing
+    sleep(.01)
