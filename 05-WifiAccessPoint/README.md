@@ -11,5 +11,5 @@ After running the codes on an ESP32, verify with a computer or smartphone that t
 
 ### No Hookup guide required. 
 
-**Refer to 04-oled-display examples for oled display requirements**
+Refer to 04-oled-display examples for oled display requirements
 
