@@ -1,8 +1,8 @@
 ## Examples for establishing an ESP32 as a wireless access point
 
-**01-accessPointHello.py** is included here to illustrate minimal requirements for creating a wireless access point
+**accessPointHello.py** is included here to illustrate minimal requirements for creating a wireless access point
 
-**02-accessPointWithOledDisplay.py** is included here to provide display results of our access point activity
+**accessPointWithOledDisplay.py** is included here to provide display results of our access point activity
 
 **client-connect.py** is destined to be run on a second ESP32 (client device). This illustrates simple connection requirements. No data is sent or received.
 
