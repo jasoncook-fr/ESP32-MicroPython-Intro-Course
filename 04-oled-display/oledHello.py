@@ -14,3 +14,5 @@ oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
 oled.text('This is a test', 0, 0)
 oled.text('This is test 2!', 0, 12)
 oled.text('Is this test 3?', 0, 24)
+
+oled.show()
